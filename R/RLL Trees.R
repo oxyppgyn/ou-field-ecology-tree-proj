@@ -5,7 +5,7 @@
 
 #Init ----
 #Working Directory
-setwd("C:/Users/tanne/OneDrive/Desktop/RLL")
+setwd("/ou-field-ecology-tree-proj/R")
 
 #Import Packages
 library(readr)
@@ -14,16 +14,16 @@ library(psych)
 library(vegan)
 
 #Import Data
-trees.total <- read.csv("C:/Users/tanne/OneDrive/Desktop/RLL/trees.total.csv")
+trees.total <- read.csv("/ou-field-ecology-tree-proj/R/trees.total.csv")
 View(trees.total)
 
-trees.div <- read.csv("C:/Users/tanne/OneDrive/Desktop/RLL/trees.div.csv")
+trees.div <- read.csv("/ou-field-ecology-tree-proj/R/trees.div.csv")
 View(trees.div)
 
 #Split Data Set
 ##Diversity Measures/Calculations
 trees.plot <- trees.div[,1:9]
-View(trees.plot)
+
 ##Diversity Data
 trees.div <- trees.div[,10:20]
 
