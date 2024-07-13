@@ -1,7 +1,6 @@
 #Ridges Land Lab Tree Landscape Variables
 ##Field Ecology Final Project
 #Tanner Hammond
-#data = XXX.csv; XXX.csv
 
 #Init ----
 #Working Directory
